@@ -6,4 +6,52 @@
 
 html {
   font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+.todo-list {
+  width: 90%;
+  margin: 2rem auto;
+  background-color: #ff4433;
+  border-radius: 0.4rem;
+  border: 1px solid #330e0a;
+}
+
+.todo-list p {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #330e0a;
+  padding: 0.8rem 0;
+}
+
+.input-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.todo-input {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 2.4rem;
+  border: 1px solid #330e0a;
+  background-color: #ffeceb;
+  font-family: inherit;
+}
+
+.todo-input:placeholder-shown {
+  color: gray;
+}
+
+.btn-add {
+  font-size: 2.4rem;
+  border: none;
+  border: 1px solid #330e0a;
+  background-color: #330e0a;
+  color: #ffeceb;
+  padding: 0 1.2rem;
+  margin-left: -0.4rem;
+  cursor: pointer;
+  font-family: inherit;
 }
